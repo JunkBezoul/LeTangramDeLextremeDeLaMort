@@ -1,0 +1,32 @@
+.red.square{ 
+    transform:translate(-140px,-64px);
+}
+.green.square{
+    transform: translate(-28px,-102px) skew(-45deg);
+}
+.blue.square{ 
+    transform:translate(-65px,85px) rotate(90deg);
+}
+.yellow.square{
+    transform: translate(10px,10px);
+}
+.purple.square{
+    transform: translate(-176px,85px) rotate(270deg);
+}
+.brown.square{
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)translate(-93px,-50px);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.orange.square{
+    transform: translate(-64px,-27px);
+}
